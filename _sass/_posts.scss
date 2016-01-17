@@ -1,0 +1,76 @@
+//
+// post
+.post {
+  .post-header {
+    h1 {
+      margin-bottom: 10px;
+      // text-transform: uppercase;
+      line-height: 1.3em;
+      font-size: 1.8rem;
+      color: $text-color;
+      @include transition(color .2s linear);
+    }
+  }
+
+  .post-meta {
+    font-size: 14px;
+    margin-top: 0;
+    font-weight: 300;
+    font-family: $font-family-serif;
+    margin-bottom: 1rem;
+    font-style: italic;
+    color: #9a9a9a;
+  }
+
+  img {
+    max-width: 100%;
+    vertical-align: middle;
+  }
+}
+
+.single {
+  .post-header {
+    margin-bottom: $spacing-unit;
+  }
+}
+
+.share {
+  @extend %clearfix;
+  text-align: right;
+
+  span, a {
+    font-size: 1em;
+    color: #999;
+  }
+}
+
+.post-list {
+  .post {
+    padding-bottom: $spacing-unit;
+    margin-bottom: $spacing-unit;
+    border-bottom: 1px solid $gray-color-light;
+
+    &:last-child {
+      border-bottom: none;
+      margin-bottom: 0;
+    }
+
+    .post-content {
+      margin-top: .8em;
+      margin-left: 5%;
+      margin-right: 5%;
+
+      .post-left {
+        float: left;
+        width: 25%;
+      }
+
+      .post-right {
+        margin-top: 0.5em;
+        padding-left: 1em;
+        float: left;
+        width: 75%;
+      }
+    }
+  }
+}

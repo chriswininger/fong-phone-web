@@ -4,24 +4,23 @@
 .container {
   max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
   max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: $spacing-unit;
-  padding-left: $spacing-unit;
   @extend %clearfix;
 
   @include media-query($on-laptop) {
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
     max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-    padding-right: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
   }
+  padding-right: $spacing-unit / 2;
+  padding-left: $spacing-unit / 2;
 }
 
 .card {
   padding: $spacing-unit;
   background-color: #fff;
   box-shadow: 0px 1px 2px rgba(#000, .2);
+  width: 100%;
+  max-width: 100%;
+  margin: 0px;
 }
 
 .readmore {
@@ -46,10 +45,10 @@
   position: relative;
   @extend %clearfix;
   padding: 60px 0;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 
   .overlay {
-    background: rgba(#000, .35);
+    background: rgba(#000, .15);
     z-index: 1;
     position: absolute;
     width: 100%;
@@ -83,8 +82,7 @@
 //
 // site title
 .title {
-  font-size: 32px;
-  line-height: 65px;
+  font-size: 65px;
   letter-spacing: -1px;
   margin: 0;
   float: left;
@@ -163,83 +161,13 @@
   display: none;
 }
 
-//
-// post
-.post {
-  .post-header {
-    h1 {
-      margin-bottom: 10px;
-      // text-transform: uppercase;
-      line-height: 1.3em;
-      font-size: 1.8rem;
-    }
-
-    a {
-      color: $text-color;
-      @include transition(color .2s linear);
-
-      &:hover,
-      &:focus {
-        color: $primary-color;
-        text-decoration: none;
-      }
-    }
-  }
-
-  .post-meta {
-    font-size: 14px;
-    margin-top: 0;
-    font-weight: 300;
-    font-family: $font-family-serif;
-    margin-bottom: 1rem;
-    font-style: italic;
-    color: #9a9a9a;
-  }
-
-  img {
-    max-width: 100%;
-    vertical-align: middle;
-  }
-}
-
-.single {
-  .post-header {
-    margin-bottom: $spacing-unit;
-  }
-}
-
-.share {
-  @extend %clearfix;
-  text-align: right;
-
-  span, a {
-    font-size: 1em;
-    color: #999;
-  }
-}
-
-.post-list {
-  .post {
-    padding-bottom: $spacing-unit;
-    margin-bottom: $spacing-unit;
-    border-bottom: 1px solid $gray-color-light;
-
-    &:last-child {
-      border-bottom: none;
-      margin-bottom: 0;
-    }
-
-    .post-content {
-      margin-top: .8em;
-    }
-  }
-}
-
 // Social
 //
 .social-icons {
   @extend %clearfix;
-  margin-bottom: 15px;
+  margin-bottom: 1em;
+  margin-left: 10%;
+  margin-right: 10%;
 
   li:first-child {
     margin-right: 5px;
@@ -274,7 +202,6 @@
     width: 35px;
     height: 35px;
     padding: 7px;
-    background: #DADADA;
     text-align: center;
     color: #494949;
     transition: all .2s ease-in;
@@ -290,6 +217,32 @@
     background-color: #00ABEC;
     color: #fff;
   }
+
+  i.fa {
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 45px;
+  }
+
+  // images/Download_on_the_App_Store_Badge_US-UK_135x40.svg
+  i.fa-appstore {
+    width: 135px;
+    background-image: url('/images/Download_on_the_App_Store_Badge_US-UK_135x40.svg');
+  }
+
+  i.fa-googleplay {
+    width: 129px;
+    background-image: url('/images/en_generic_rgb_wo_45.png');
+  }
+
+  i.fa-github-dl {
+    width: 135px;
+    background-image: url('/images/GitHub_Logo.png');
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+  }
+
 }
 
 // Pagination
@@ -354,6 +307,10 @@
   margin-top: 30px;
   padding: 30px 0;
 
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
   small {
     color: darken($gray-color-light, 25%);
     font-size: 12px;

@@ -1,0 +1,19 @@
+The Fong Phone is an open source synth for all of your mobile devices.
+
+We launched this project when my shoe box became unstable and started to spark (more than usual).
+
+You can think of this project as both a portable synth and a collaboritive art project.
+
+The original "Pong Fong" was a device I built using a basic stamp, the innards of a cassete deck,
+a shoebox, and lots of electrical tape.
+
+It used the basic stamp to simulate two oscilators with pitches that could each be controlled a corresponding dial.
+
+In addition each oscillator pulsed at a given frequency, but the frequencies were coupled such that the rate of pulsing
+of the second oscilator was always a multiplication of the first.
+
+When combined with the genral shaudiness of my construction and its side effects I managed milk some drones out of this set up.
+
+The Fong Phone, extends this idea but takes advantage of all 
+
+When my long time co-conspiratore Andrew came on board the project quickly matured into something I think is quite beautiful.

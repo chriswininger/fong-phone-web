@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 744.09448819 1052.3622047"
+   id="svg4169"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="google-play-promo-art.svg">
+  <defs
+     id="defs4171">
+    <radialGradient
+       id="grad1"
+       cx="157"
+       cy="181"
+       r="60"
+       fx="159"
+       fy="181"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(10.142805,495.64791)">
+      <stop
+         offset="0%"
+         style="stop-color:#d6f0fd;stop-opacity:1"
+         id="stop6">
+        <animate
+           id="grad1Animation"
+           attributeName="stop-color"
+           from="#0b8793"
+           to="#ffffff"
+           repeatCount="indefinite"
+           dur="724ms" />
+      </stop>
+      <stop
+         offset="100%"
+         style="stop-color:#0b8793;stop-opacity:0"
+         id="stop8" />
+    </radialGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4205"
+       id="linearGradient4211"
+       x1="-90.254242"
+       y1="-106.77967"
+       x2="-79.237289"
+       y2="587.28815"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.517037,0,0,3.5329342,565.03197,1095.7752)" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4205">
+      <stop
+         style="stop-color:#360033;stop-opacity:1"
+         offset="0"
+         id="stop4207" />
+      <stop
+         style="stop-color:#000080;stop-opacity:0;"
+         offset="1"
+         id="stop4209" />
+    </linearGradient>
+    <radialGradient
+       id="grad1-4"
+       cx="157"
+       cy="181"
+       r="60"
+       fx="159"
+       fy="181"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.7466937,0,0,2.7466937,138.12873,322.33067)">
+      <stop
+         offset="0%"
+         style="stop-color:#d6f0fd;stop-opacity:1"
+         id="stop6-8">
+        <animate
+           id="grad1Animation"
+           attributeName="stop-color"
+           from="#0b8793"
+           to="#ffffff"
+           repeatCount="indefinite"
+           dur="724ms" />
+      </stop>
+      <stop
+         offset="100%"
+         style="stop-color:#0b8793;stop-opacity:0"
+         id="stop8-5" />
+    </radialGradient>
+    <radialGradient
+       id="grad1-4-2"
+       cx="157"
+       cy="181"
+       r="60"
+       fx="159"
+       fy="181"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.7466937,0,0,2.7466937,372.06323,372.37634)">
+      <stop
+         offset="0%"
+         style="stop-color:#d6f0fd;stop-opacity:1"
+         id="stop6-8-0">
+        <animate
+           id="grad1Animation"
+           attributeName="stop-color"
+           from="#0b8793"
+           to="#ffffff"
+           repeatCount="indefinite"
+           dur="724ms" />
+      </stop>
+      <stop
+         offset="100%"
+         style="stop-color:#0b8793;stop-opacity:0"
+         id="stop8-5-3" />
+    </radialGradient>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4893"
+       x="-0.6324409"
+       width="2.2648818"
+       y="-1.2773174"
+       height="3.5546347">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="270.66964"
+         id="feGaussianBlur4895" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4995"
+       x="-0.66972656"
+       width="2.3394531"
+       y="-1.3716"
+       height="3.7432">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="285.75"
+         id="feGaussianBlur4997" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="262.73036"
+     inkscape:cy="525.74315"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer5"
+     showgrid="false"
+     inkscape:window-width="1871"
+     inkscape:window-height="1056"
+     inkscape:window-x="49"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata4174">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:url(#linearGradient4211);fill-opacity:1"
+       id="rect3383"
+       width="1024"
+       height="500"
+       x="0"
+       y="552.36224"
+       inkscape:export-filename="/home/chris/PHPStromProjects/zetsu/images/logo2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="fongs">
+    <circle
+       class="fong"
+       id="oscTouch1-3"
+       cx="569.35974"
+       cy="819.48224"
+       style="fill:url(#grad1-4)"
+       r="164.80161" />
+    <circle
+       class="fong"
+       id="oscTouch1-3-5"
+       cx="803.29419"
+       cy="869.52789"
+       style="fill:url(#grad1-4-2)"
+       r="164.80161" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4806"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion4808"><rect
+           id="rect4810"
+           width="687.14288"
+           height="170"
+           x="190"
+           y="566.64795" /></flowRegion><flowPara
+         id="flowPara4812"></flowPara></flowRoot>  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="newOverlay">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;opacity:0.35;filter:url(#filter4995)"
+       id="rect3383-7"
+       width="1024"
+       height="500"
+       x="0"
+       y="552.36218"
+       inkscape:export-filename="/home/chris/PHPStromProjects/zetsu/images/logo2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="overlay">
+    <rect
+       style="opacity:0.20499998;fill:#ffffff;fill-opacity:1;stroke:#360033;stroke-opacity:1;filter:url(#filter4893)"
+       id="rect4838"
+       width="1027.1428"
+       height="508.57144"
+       x="-2.8571427"
+       y="548.07648"
+       transform="matrix(0.02870577,0,0,0.27658145,-357.13125,2092.9243)" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="text">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:80px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="21.428572"
+       y="633.79083"
+       id="text4814"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4816"
+         x="21.428572"
+         y="633.79083"
+         style="font-size:80px;fill:#fff5f5;fill-opacity:1">Fong Phone</tspan></text>
+  </g>
+</svg>

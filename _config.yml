@@ -2,14 +2,14 @@
 title: Fong Phone
 email: chriswininger@fongphone.com
 description: Welcome to the fong phone, an open source phone app that will drone your head to space
-baseurl: "/fongphone"
+baseurl: ""
 url: "http://phongphone.com"
 
 github: https://github.com/chriswininger/FongPhone
 disqus_shortname: "chriswininger"
 google_analytics: 38179684
 
-paginate: 2
+paginate: 10
 comments: true
 paginate_path: "/page/:num"
 
@@ -18,5 +18,7 @@ sass:
   sass_dir: _sass
 
 # Build settings
-markdown  : kramdown
+markdown: kramdown
 permalink : /:title/
+
+gems: [jekyll-paginate]
