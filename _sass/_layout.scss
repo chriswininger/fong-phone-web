@@ -75,13 +75,17 @@
 }
 
 .home .header {
-  padding: 260px 0 200px;
+  padding: 260px 0 260px;
+  /*   padding: 150px 0 260px; */
+  @include media-query($on-phone) {
+    padding: 90px 0 100px;
+  }
 }
 
 //
 // site title
 .title {
-  font-size: 65px;
+  font-size: 48pt;
   letter-spacing: -1px;
   margin: 0;
   float: left;

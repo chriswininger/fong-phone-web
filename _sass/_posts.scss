@@ -59,17 +59,37 @@
       margin-top: .8em;
       margin-left: 5%;
       margin-right: 5%;
+      display: flex;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -o-flex;
+      flex-wrap: wrap;
+      -webkit-flex-wrap: wrap;
+      -moz-flex-wrap: wrap;
+      -o-flex-wrap: wrap;
 
       .post-left {
-        float: left;
-        width: 25%;
+        min-width: 100px;
+        max-width: 25%;
+        -webkit-flex: 1 1 auto;
+        flex: 1 1 auto;
+        @include media-query($on-phone) {
+          max-width: 100%;
+          width: 100%;
+        }
       }
 
       .post-right {
         margin-top: 0.5em;
-        padding-left: 1em;
-        float: left;
-        width: 75%;
+        max-width: 75%;
+        padding-left: 1.5em;
+        -webkit-flex: 1 1 auto;
+        flex: 1 1 auto;
+        min-width: 60px;
+        @include media-query($on-phone) {
+          max-width: 100%;
+          width: 100%;
+        }
       }
     }
   }
